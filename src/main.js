@@ -5,7 +5,7 @@ import Student from "./entities/student";
     const orm = new mOrm();
     try{
         await orm.createConnection({
-            "uri": "postgres://20180202:@localhost:5432/iLovePragmatic"
+            "uri": "postgres://20181092:@localhost:5432/iLovePragmatic"
         },
         {
           entities: [Student]
