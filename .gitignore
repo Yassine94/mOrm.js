@@ -1,0 +1,11 @@
+#NODE.JS
+node_modules/
+
+#GENERATED STUFF
+lib/
+
+#LOGS
+*.log
+
+#OPERATING SYSTEM
+.DS_Store
